@@ -266,7 +266,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand">Hitung Weton</span>
+        <span class="navbar-brand">Hitung Weton Jodoh</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -295,8 +295,8 @@ if (isset($_POST['submit'])) {
 
                     switch ($weton) {
                         case 'Pegat':
-                            $x = "Pegat / Pegatan";
-                            $y = "Dalam bahasa jawa berarti bercerai. Pasangan ini kemungkinan akan sering menghadapi masalah dikemudian hari. Masalah itu bisa dari masalah ekonomi, perselingkuhan, kekuasaan yang bisa menyebabkan perceraian.";
+                            $x = "Pegat/Pegatan";
+                            $y = "Dalam bahasa jawa yang berarti bercerai. Pasangan ini kemungkinan akan sering menghadapi masalah dikemudian hari. Masalah itu bisa dari masalah ekonomi, perselingkuhan, kekuasaan yang bisa menyebabkan perceraian.";
                             $z = "alert-danger";
                             break;
                         case 'Ratu':
@@ -321,12 +321,12 @@ if (isset($_POST['submit'])) {
                             break;
                         case 'Padu':
                             $x = "Padu";
-                            $y = "Padu dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.";
+                            $y = "Padu diartikan cekcok atau pertengkaran dalam bahasa jawa. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.";
                             $z = "alert-danger";
                             break;
                         case 'Sujanan':
                             $x = "Sujanan";
-                            $y = "Rumah tangga ini akan sering mengalami percekcokan & masalah perselingkuhan.";
+                            $y = "Rumah tangga ini nantinya akan sering mengalami percekcokan & masalah perselingkuhan.";
                             $z = "alert-danger";
                             break;
                         case 'Pesthi':
@@ -345,7 +345,7 @@ if (isset($_POST['submit'])) {
                 </div>
                 <?php } else { ?>
                 <div class="alert alert-info alert-dismissible fade show" role="alert">
-                    <strong><i class="fa fa-exclamation-circle fa-md"></i> Baca!</strong> Pemahaman ini tidak bisa dijadikan patokan utama dalam kehidupan sehari-hari. Tergantung dari sisi kepercayaan masing-masing.
+                    <strong><i class="fa fa-exclamation-circle fa-md"></i> Baca!</strong> Pemahaman ini tidak bisa sepenuhnya dijadikan patokan utama dalam kehidupan sehari-hari. Tergantung dari sisi kepercayaan masing-masing.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
